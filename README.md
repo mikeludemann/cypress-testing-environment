@@ -1,2 +1,3 @@
-# cypress-testing-environment
+# Cypress Testing Environment
+
 A cypress testing environment

@@ -1,0 +1,34 @@
+{
+  "name": "cypress-testing-environment",
+  "version": "1.0.0",
+  "description": "Cypress Testing Environment",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --browser chrome",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeludemann/cypress-testing-environment.git"
+  },
+  "keywords": [
+    "Cypress",
+    "Testing"
+  ],
+  "author": "Mike Ludemann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeludemann/cypress-testing-environment/issues"
+  },
+  "homepage": "https://github.com/mikeludemann/cypress-testing-environment#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "cypress": "^3.6.1",
+    "karma": "^4.4.1",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-mocha": "^1.3.0",
+    "mocha": "^6.2.2"
+  }
+}
